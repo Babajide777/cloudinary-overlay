@@ -15,7 +15,6 @@ const pictureUpload = async (req, res) => {
         video: transformedVid,
       });
     } catch (error) {
-      console.log(error);
       res.status(400).json({
         sucess: false,
         error,
