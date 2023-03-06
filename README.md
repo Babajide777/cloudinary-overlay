@@ -11,7 +11,7 @@ This tutorial teaches you how to create video overlays using Cloudinary.
 #### Post details to upload a video and a picture.
 
 ```http
-  POST /api/contact
+  POST /upload
 ```
 
 ## Documentation
